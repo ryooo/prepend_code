@@ -1,29 +1,57 @@
-# PrependCode
+# prepend_code
 
-TODO: Write a gem description
+prepend_code will prepend context on your files.
 
-## Installation
+prepend_code supports and options:
 
-Add this line to your application's Gemfile:
+* It handles recursively to the directory.
+* You can view all options by --help.
+    $ prepend_code --help
+* You can specify context.(default : # coding: utf-8)
+    $ prepend_code -t "# Copyright (c) 2013 ryooo321."
+* You can specify target directory.(default : ./app)
+    $ prepend_code -d ./lib
+* You can specify target file extension.(default : .rb)
+    $ prepend_code -e .erb
 
-    gem 'prepend_code'
+## Supported Ruby versions and implementations
+I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 
-And then execute:
+* Ruby 1.9.3
 
-    $ bundle
-
-Or install it yourself as:
+## Install
 
     $ gem install prepend_code
 
 ## Usage
 
-TODO: Write usage instructions here
+### on your rails project directory
+    $ prepend_code
 
-## Contributing
+### run rspec
+    $ rake spec
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+### set gem version
+    $ rake version:write MAJOR=0 MINOR=1 PATCH=0
+
+### build gem
+    $ rake build
+
+### release gem to RubyGems.org
+    $ rake release
+
+### Other
+
+## Contributing to Lapidary
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
+* Fork the project.
+* Start a feature/bugfix branch.
+* Commit and push until you are happy with your contribution.
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+## Copyright
+
+Copyright (c) 2013 ryooo321. See LICENSE.txt for further details.
