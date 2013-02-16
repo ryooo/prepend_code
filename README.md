@@ -51,7 +51,7 @@ I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 
 ### Other
 
-## Contributing to Lapidary
+## Contributing to prepend_code
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
