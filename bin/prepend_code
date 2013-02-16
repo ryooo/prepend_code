@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'prepend_code'
+
+ret = PrependCode::Application.run!(*ARGV)
+
+exit ret
