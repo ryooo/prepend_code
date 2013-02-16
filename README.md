@@ -25,15 +25,15 @@ I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 
 ### specify context.
     $ prepend_code -t "# Copyright (c) 2013 ryooo321."
-    $ # default : # coding: utf-8
+    # default is # coding: utf-8
 
 ### specify target directory.
     $ prepend_code -d ./lib
-    $ # default : ./app
+    # default is ./app
 
 ### specify target file extension.
     $ prepend_code -e .erb
-    $ # default : .rb
+    # default is .rb
 
 ## For dev
 
