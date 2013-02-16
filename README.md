@@ -2,17 +2,9 @@
 
 prepend_code will prepend context on your files.
 
-prepend_code supports and options:
+prepend_code mainly supports:
 
 * It handles recursively to the directory.
-* You can view all options by --help.
-    $ prepend_code --help
-* You can specify context.(default : # coding: utf-8)
-    $ prepend_code -t "# Copyright (c) 2013 ryooo321."
-* You can specify target directory.(default : ./app)
-    $ prepend_code -d ./lib
-* You can specify target file extension.(default : .rb)
-    $ prepend_code -e .erb
 
 ## Supported Ruby versions and implementations
 I've tested on:(maybe move on 1.8.7, 1.9.2 too)
@@ -27,6 +19,17 @@ I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 
 ### on your rails project directory
     $ prepend_code
+
+### You can view all options by --help.
+    $ prepend_code --help
+### You can specify context.(default : # coding: utf-8)
+    $ prepend_code -t "# Copyright (c) 2013 ryooo321."
+### You can specify target directory.(default : ./app)
+    $ prepend_code -d ./lib
+### You can specify target file extension.(default : .rb)
+    $ prepend_code -e .erb
+
+## For dev
 
 ### run rspec
     $ rake spec
