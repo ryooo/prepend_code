@@ -20,14 +20,20 @@ I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 ### on your rails project directory
     $ prepend_code
 
-### You can view all options by --help.
+### view all options by --help.
     $ prepend_code --help
-### You can specify context.(default : # coding: utf-8)
+
+### specify context.
     $ prepend_code -t "# Copyright (c) 2013 ryooo321."
-### You can specify target directory.(default : ./app)
+    $ # default : # coding: utf-8
+
+### specify target directory.
     $ prepend_code -d ./lib
-### You can specify target file extension.(default : .rb)
+    $ # default : ./app
+
+### specify target file extension.
     $ prepend_code -e .erb
+    $ # default : .rb
 
 ## For dev
 
