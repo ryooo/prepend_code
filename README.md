@@ -7,7 +7,7 @@ prepend_code mainly supports:
 * It handles recursively to the directory.
 
 ## Supported Ruby versions and implementations
-I've tested on:(maybe move on 1.8.7, 1.9.2 too)
+I've tested on:
 
 * Ruby 1.9.3
 
