@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["ryooo.321@gmail.com"]
   gem.description   = %q{Prepend context on all app ruby files. coding directive, copy right and so on.}
   gem.summary       = %q{Prepend context on all app ruby files.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/ryooo321/prepend_code"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
