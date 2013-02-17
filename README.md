@@ -18,18 +18,14 @@ I've tested on:(maybe move on 1.8.7, 1.9.2 too)
 ## Usage
 
 ### on your rails project directory
-    $ prepend_code
+    $ prepend_code target_director context
+    
+    # example
+    $ prepend_code ./app "# coding: utf-8"
+    $ prepend_code ./lib "# Copyright (c) 2013 ryooo321"
 
 ### view all options by --help.
     $ prepend_code --help
-
-### specify context.
-    $ prepend_code -t "# Copyright (c) 2013 ryooo321."
-    # default is # coding: utf-8
-
-### specify target directory.
-    $ prepend_code -d ./lib
-    # default is ./app
 
 ### specify target file extension.
     $ prepend_code -e .erb
